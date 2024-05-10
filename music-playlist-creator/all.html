@@ -13,26 +13,23 @@
         <nav class="navbar">
           <ul>
             <li>
-              <a href="./index.html" class="nav-link active" id="featured"
-                >Featured</a
-              >
+              <a href="./index.html" class="nav-link" id="featured">Featured</a>
             </li>
-            <li><a href="./all.html" class="nav-link" id="all">All</a></li>
+            <li>
+              <a href="./all.html" class="nav-link active" id="all">All</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="featured-playlist">
-        <div class="playlist-container">
-          <div class="playlist-info-container">
-            <div class="playlist-image"></div>
-            <h2 class="playlist-name"></h2>
-          </div>
-          <ul class="song-list"></ul>
-        </div>
+      <section class="playlist-gallery">
+        <div class="playlist-cards"></div>
       </section>
+      <div class="modal-overlay">
+        <div class="modal-content"></div>
+      </div>
     </main>
 
     <script src="data/data.js"></script>
